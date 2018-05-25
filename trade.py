@@ -97,4 +97,5 @@ class Trade:
             "has-weekly-and-monthly": self.hasWeekly and self.hasMonthly,
             "has-empty-bars": self.hasEmptyBars
         }
+
         return tradeProperty
